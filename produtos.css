@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 20px;
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+}
+
+img {
+    height: 30vh;
+    width: 14vw;
+    border-radius: 5px;
+}
