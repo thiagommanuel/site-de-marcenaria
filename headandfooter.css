@@ -10,6 +10,8 @@
     justify-content: flex-start;
     padding-left: 25vh;
     transition: 0.5s;
+    height: 20vh;
+    width: 10vw;
 }
 
 .header:hover {
@@ -23,7 +25,7 @@ ul {
 
 li {
     margin: 2vh;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     transition: 0.5s;
@@ -31,12 +33,16 @@ li {
 }
 
 li:hover {
-    font-size: 60px;
+    font-size: 30px;
 }
 
 .footerimg {
     height: 12vh;
     width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 13vh;
+    margin-right: auto;
 }
 
 footer {
@@ -49,5 +55,5 @@ footer {
 
 .direitosautorais {
     color: white;
-    margin-top: 2vh;
+    margin-top: 1vh;
 }
