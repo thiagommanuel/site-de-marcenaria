@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="headandfooter.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
@@ -29,12 +30,31 @@
         <div>
             <form>
                 <label for="name">nome e sobrenome</label>
-
-                <input type="text" id="nome" required>
+                <input type="text" class="informacao" required>
                 <label for="email">email</label>
-                <input type="email" name="" id="">
+                <input type="email" placeholder="seuemail@dominio.com" class="informacao" required>
                 <label for="tel">telefone</label>
-                <input type="tel" name="" id="">
+                <input type="tel" placeholder="+XX (XX) XXXXX-XXXX" class="informacao" required>
+                <label for="message">Mensagem</label>
+                <input type="message" id="mensagem" class="informacao">
+                <label for="checkbox">como prefere o nosso contato?</label>
+                <label for="checkbox" id="label">Email
+                    <input type="checkbox"></label>
+                <label for="checkbox" id="label">Telefone
+                    <input type="checkbox"></label>
+                <label for="checkbox" id="label">Whatsapp
+                    <input type="checkbox"></label>
+                <label for="select" class="flex">Qual horário prefere ser atendido?</label>
+                <select name="data" class="block">
+                    <option value="">selecione</option>
+                    <option value="manha">manhã</option>
+                    <option value="tarde">tarde</option>
+                    <option value="noite">noite</option>
+                </select>
+                <input type="checkbox" name="" id="check">
+                <label for="checkbox">gostaria de receber nossas novidades por email?</label>
+                <input type="submit" id="send" value="Enviar Formulario">
+
             </form>
         </div>
     </main>
