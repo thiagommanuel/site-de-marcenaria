@@ -10,8 +10,10 @@
     justify-content: flex-start;
     padding-left: 25vh;
     transition: 0.5s;
-    height: 20vh;
-    width: 10vw;
+    height: 12vh;
+    width: 6vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .header:hover {
@@ -25,7 +27,7 @@ ul {
 
 li {
     margin: 2vh;
-    font-size: 25px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     transition: 0.5s;
