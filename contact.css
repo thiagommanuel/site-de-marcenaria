@@ -1,0 +1,42 @@
+form {
+    margin-left: 40vh;
+}
+
+.informacao {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    row-gap: 1vh;
+}
+
+#mensagem {
+    height: 20vh;
+    width: 25vw;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    display: block;
+}
+
+#check {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#send {
+    display: block;
+    color: white;
+    background-color: orange;
+    width: 15vw;
+    height: 5vh;
+    margin-bottom: 5vh;
+}
+
+#label {
+    display: block;
+}
